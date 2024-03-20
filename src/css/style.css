@@ -5,4 +5,12 @@ body {
   h1 {
     color: navy;
     margin-left: 20px;
+    font-size: 3rem
   }
+
+  #introduction {
+    color: navy;
+    margin-left: 20px;
+    font-size: 2rem;
+  }
+
