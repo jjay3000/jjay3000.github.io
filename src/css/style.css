@@ -5,8 +5,8 @@
     --normal-font: 400;
     --bold-font: 600;
     --bolder-font: 900;
-    --primary-color: #5976e8;
-    --secondary-color: #9da64c;
+    --primary-color: #7B8A9E;
+    --secondary-color: #fdfd96;
     --line-height: 1.7rem;
     --transition: 0.4s ease-in;
   }
@@ -139,7 +139,7 @@
   }
   
   .yellow:hover {
-    background-color: #f1262d;
+    background-color: #ffffff;
     color: #fff;
   }
   
@@ -148,7 +148,7 @@
   }
   
   .blue:hover {
-    background-color: #095cf7;
+    background-color: #ffffff;
     color: #fff;
   }
 
@@ -234,4 +234,21 @@
 .projects h3 {
 
   margin: 20px
+}
+
+/* Define the animation keyframes */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(125%); /* Start offscreen to the left */
+  }
+  100% {
+    transform: translateX(0); /* Slide into final position */
+  }
+}
+
+/* Apply the animation to the element */
+#imageone {
+  animation-name: slideInFromLeft;
+  animation-duration: 2s; /* Adjust duration as desired */
+  animation-timing-function: ease-in-out; /* Smooth start and end */
 }
