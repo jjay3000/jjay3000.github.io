@@ -73,10 +73,16 @@
     color: #000000;
 }
 
+.experienceText.card {
+    height: 560px;
+    cursor: pointer;
+  }
+
 .servicesText.card {
     height: 280px;
     cursor: pointer;
   }
+
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -107,7 +113,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
 }
 
 /* Footer not needed for now
