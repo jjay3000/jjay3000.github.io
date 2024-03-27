@@ -33,6 +33,26 @@
     color: rgb(0, 0, 0);
 }
 
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  .cta {
+    background-color: rgb(195, 47, 47);
+    margin-right: 1.5rem;
+  }
+  
+  .cta:hover {
+    background-color: #c86464;
+    color: #b14f4f;
+  }
+
 .image_about {
     margin-right: auto;
     width: 100%
